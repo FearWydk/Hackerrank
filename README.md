@@ -1,2 +1,2 @@
-# Hackerrank
-Coding I've done in Hackerrank, C++ &amp; Python
+# Hackerrank: C++
+Coding I've done in Hackerrank, C++
