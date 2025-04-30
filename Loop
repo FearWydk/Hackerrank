@@ -1,0 +1,35 @@
+//Loops
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+   
+    string varName[10] = {"zero","one","two","three","four","five","six","seven","eight","nine"};  //define:string of variable names for output.
+   
+    int a,b;                      //define:intergers a & b.
+    
+    cin>>a>>b;                    //input: a & b.
+   
+    for(int i = a; i <=b; i++)    //loop(index = a, index <= b, increment index).
+    {
+        if(i>=1 && i<=9)          //If index is >= 1 and <= 9, output variable name.
+        {
+            cout<<varName[i]<<endl;
+        }
+        
+        else                      //Else output if the index is even/odd by it's remainder.
+        {
+            if(i%2==0)
+            {
+                cout<<"even"<<endl;
+            }
+            else
+            {
+                cout<<"odd"<<endl;
+            }
+        }
+        
+    }
+    return 0;
+}
